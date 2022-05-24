@@ -12,7 +12,7 @@ def imshow(img, cmap="gray", vmin=0, vmax=1, frameon=False, zoom=1.0):
                    frameon=frameon)
   ax = fig.add_axes([0, 0, 1, 1])
   ax.axis('off')
-  ax.imshow(img, cmap=cmap, vmin=vmin, vmax=vmax)
+  ax.imshow(img, cmap=cmap, vmin=vmin, vmax=vmax, interpolation='none')
 
   plt.show()
 #-------------------------------------------------------------------
