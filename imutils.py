@@ -4,7 +4,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 #-------------------------------------------------------------------
 
-def imshow(img, cmap="gray", vmin=0, vmax=1, frameon=False, zoom=1.0):
+def imshow(img, cmap="gray", vmin=0, vmax=255, frameon=False, zoom=1.0):
 
   dpi = float(matplotlib.rcParams['figure.dpi'])/zoom
 
